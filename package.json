@@ -1,0 +1,23 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Bookshelf API",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "author": "Hizkia",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
